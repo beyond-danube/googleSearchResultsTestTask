@@ -75,4 +75,18 @@ the link, so https://uk.wikipedia.org/wiki/Cheese and https://en.wikipedia.org/w
 would pass as intended.
 #### Localized Search
 There is localization suggestion in Google Search, which can give unpredictable results.
-Because of that I used selector to include all the search result, not link only.
+Because of that I used selector to include all the search result, not link only.  
+This would fail, as there is no “Cheese” in result.  
+![](img/local_falseFail.png)
+This works properly and not aware of localization.  
+![](img/local_OK.png)
+#### Definition of Search Results
+Number of search results per page turned out to be unclear functionality. Half of test truly
+fail, as it’s unclear what is Search Result. Sometimes link to Video Search Results is treated
+as Search Result, which is not correct from the user's perspective. I did not implement any
+additional logic to merge those two kinds of results, as I believe it’s a bug, or detailed spec is
+required for this behavior, as Maps Search Results are not treated this way.  
+Not clear how it works:  
+![](img/count_wrong_by_design.png)
+Works properly:  
+![](img/count_OK.png)
