@@ -1,6 +1,6 @@
 # Google Search Results Test Task
 ## Yet another test task
-Long Stoty Short - sometimes you do a test task to understand something unrelated to task itself and [write a story](https://medium.com/@beyond_danube/software-quality-assurance-in-ukraine-quick-start-and-deep-swamp-6b8bd8eab45b)
+Long Stoty Short - sometimes you do a test task to understand something unrelated to task itself and [write a story](https://siniavtsev.io/blog/all/software-quality-assurance-in-ukraine-quick-start-and-deep-swamp/)
 
 ## Original Task
 ### Installation  
